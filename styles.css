@@ -1,0 +1,57 @@
+.container {
+  width: 960px;
+  margin: auto;
+}
+.task-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn {
+  padding: 10px;
+  background-color: bisque;
+  color: #333333;
+  border-radius: 7px;
+}
+#input {
+  padding: 10px;
+  border-radius: 7px;
+}
+.form .tasks {
+  display: flex;
+  flex-direction: column;
+}
+.form .tasks .task-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f3cebb;
+}
+.form .tasks .task-item .text {
+  margin-left: 15px;
+  color: rgb(5, 3, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+.form .tasks .task-item .compl {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: url("images/tick-square-svgrepo-com.svg") no-repeat 50%/100%;
+}
+.check {
+  background: url("images/tick.svg") no-repeat 50%/100% !important;
+}
+.crossOut {
+  text-decoration: line-through;
+}
+.form .tasks .task-item .del {
+  margin-left: auto;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: url("images/rubbish-bin-svgrepo-com.svg") no-repeat 50%/100%;
+}
