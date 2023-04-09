@@ -11,6 +11,9 @@ inp.addEventListener("keydown", (event) => {
 });
 function addItem(value) {
   let inp = document.querySelector("#input");
+  if (!inp.value) {
+    return;
+  }
   console.log(`completion of the task: ${inp.value}`);
 
   let item = document.createElement("div");
